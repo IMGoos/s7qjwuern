@@ -39,7 +39,6 @@ const Input = styled.input`
 const SearchBar: FC = () => {
     const [searchValue, setSearchValue] = useState<string>('');
     const [isVisible, setIsVisible] = useState(false);
-    console.log(isVisible)
     const { data: searchedPosts } = useSearchPostsQuery(searchValue);
     useEffect(() => {
         if(searchedPosts) {

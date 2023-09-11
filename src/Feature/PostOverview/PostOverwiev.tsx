@@ -20,6 +20,7 @@ const PostOverviewHeader = styled.div`
 
 const BackControl = styled.a`
   .backControlText {
+    color: black;
     font-size: 24px;
     line-height: 32px;
     font-weight: 400;

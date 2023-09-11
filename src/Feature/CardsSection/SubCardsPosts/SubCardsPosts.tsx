@@ -13,7 +13,6 @@ const SubCardsPostsComponent = styled.div`
 
 const SubCardsPosts: FC = () => {
     const {data: posts} = useGetAllPostsQuery();
-    console.log(posts);
     return (
         <SubCardsPostsComponent>
             {
